@@ -1,0 +1,15 @@
+[project]
+name = "tiny-gpt"
+version = "0.1.0"
+description = "A small GPT-style language model built from scratch"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["tiny_gpt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

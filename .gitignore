@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# Data and model files are big and reproducible from the scripts -- don't commit them
+data/
+checkpoints/
+
+# macOS
+.DS_Store
